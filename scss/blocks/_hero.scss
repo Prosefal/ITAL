@@ -64,3 +64,45 @@
     padding: 18px 0;
     text-align: center;
 }
+
+@media only screen and (max-width:576px) {
+    .hero {
+        padding: 0 0 80px;
+    }
+
+    .kaka {
+        top: 100px;
+    }
+
+    .hero__title {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 140%;
+        color: #FFF;
+    }
+
+    .kaka {
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    .titlebox-hero {
+        margin-bottom: 27px;
+        max-width: 313px;
+    }
+
+    .textbox-hero {
+        max-width: 300px;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .hero__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: left !important;
+        color: #FFF;
+    }
+}

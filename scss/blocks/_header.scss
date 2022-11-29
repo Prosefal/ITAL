@@ -17,6 +17,10 @@
     display: inline-block;
 }
 
+.logo__mobile {
+    display: none;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -29,7 +33,7 @@
     align-items: center;
 }
 
-.navbar__item+.navbar__item {
+.navbar__item + .navbar__item {
     margin-left: 50px;
 }
 
@@ -44,4 +48,29 @@
 
 .navbar__link-acktive {
     border-bottom: 1px solid #D8B152;
+}
+
+.burger {
+    display: none;
+    margin-left: auto;
+    border: none;
+    background-color: transparent;
+}
+
+@media only screen and (max-width:576px) {
+    .logo__img {
+        display: none;
+    }
+
+    .logo__mobile {
+        display: block;
+    }
+    
+    .navbar {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
 }
