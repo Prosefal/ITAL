@@ -1,46 +1,43 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Media</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-
 </head>
-
 <body>
-    <header class="site-header">
+    <header class="site-header site-header-global">
         <div class="container">
             <div class="site-header__inner">
                 <a class="logo" href="./index.html">
                     <!-- picture ishlamadi -->
-                    <img class="logo__mobile" src="./images/logo-mobile.svg" alt="logo" width="85" height="31">
-                    <img class="logo__img" src="./images/logo.svg" alt="logo" width="200" height="72">
+                    <img class="logo__mobile" src="./images/logo-mobile_black.svg" alt="logo" width="85" height="31">
+                    <img class="logo__img" src="./images/logo_black.svg" alt="logo" width="200" height="72">
                 </a>
 
                 <nav class="navbar">
                     <ul class="navbar__list">
                         <li class="navbar__item">
-                            <a class="navbar__link navbar__link-acktive" href="./index.html">
+                            <a class="navbar__link black" href="./index.html">
                                 Наши проекты
                             </a>
                         </li>
-                        <li class="navbar__item">
-                            <a class="navbar__link" href="./media.html">
+                        <li class="navbar__item navbar__link-acktive">
+                            <a class="navbar__link black" href="./media.html">
                                 Медиа
                             </a>
                         </li>
                         <li class="navbar__item">
-                            <a class="navbar__link" href="./aboutus.html">
+                            <a class="navbar__link black" href="./aboutus.html">
                                 О нас
                             </a>
                         </li>
                         <li class="navbar__item">
-                            <a class="navbar__link" href="#">
+                            <a class="navbar__link black" href="#">
                                 Контакты
                             </a>
                         </li>
@@ -51,106 +48,37 @@
                 </button>
             </div>
         </div>
-    </header>
+    </header>    
+
     <main>
-        <!-- ============================================================================================== -->
-        <section class="hero">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./images/hero-bg.jpg" class="d-block w-100" alt="bg decor" width="1200" height="800">
-                        <div class="container">
-                            <div class="kaka">
-                                <div class="titlebox titlebox-hero">
-                                    <h1 class="hero__title m-0">
-                                        Проектирование элитной недвижимости «под ключ»
-                                    </h1>
-                                </div>
-                                <div class="textbox textbox-hero">
-                                    <p class="hero__text text-center">
-                                        Запишитесь на бесплатную онлайн консультацию
-                                    </p>
-                                    <a class="mainbtn mainbtn-hero" href="#">Записаться</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/hero-bg2.jpg" class="d-block w-100" alt="bg decor" width="1200" height="800">
-                        <div class="container">
-                            <div class="kaka">
-                                <div class="titlebox titlebox-hero">
-                                    <h1 class="hero__title m-0">
-                                        Проектирование элитной недвижимости «под ключ»
-                                    </h1>
-                                </div>
-                                <div class="textbox textbox-hero">
-                                    <p class="hero__text text-center">
-                                        Запишитесь на бесплатную онлайн консультацию
-                                    </p>
-                                    <a class="mainbtn mainbtn-hero" href="#">Записаться</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/hero-bg3.jpg" class="d-block w-100" alt="bg decor" width="1200" height="800">
-                        <div class="container">
-                            <div class="kaka">
-                                <div class="titlebox titlebox-hero">
-                                    <h1 class="hero__title m-0">
-                                        Проектирование элитной недвижимости «под ключ»
-                                    </h1>
-                                </div>
-                                <div class="textbox textbox-hero">
-                                    <p class="hero__text text-center">
-                                        Запишитесь на бесплатную онлайн консультацию
-                                    </p>
-                                    <a class="mainbtn mainbtn-hero" href="#">Записаться</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- =================================================================================== -->
         <section class="sevices">
             <div class="container">
                 <div class="servives__inner">
                     <h2 class="services__title ">
-                        Наши услуги
+                        Медиафайлы
                     </h2>
                     <ul class="services__list">
                         <li class="services__item seritem">
                             <h3 class="seritem__title">
-                                Загородный дом
+                                Награды
                             </h3>
-                            <a class="mainbtn mainbtn-services" href="#">
+                            <a class="mainbtn mainbtn-services" href="./trofeys.html">
                                 Посмотреть
                             </a>
                         </li>
 
                         <li class="services__item seritem">
                             <h3 class="seritem__title">
-                                Квартира
+                                Публикации
                             </h3>
-                            <a class="mainbtn mainbtn-services" href="#">
+                            <a class="mainbtn mainbtn-services" href=".">
                                 Посмотреть
                             </a>
                         </li>
 
                         <li class="services__item seritem">
                             <h3 class="seritem__title">
-                                Помещения
+                                Отзывы
                             </h3>
                             <a class="mainbtn mainbtn-services" href="#">
                                 Посмотреть
@@ -160,77 +88,8 @@
                 </div>
             </div>
         </section>
-
-        <!-- ========================================================================== -->
-
-        <section class="about">
-            <div class="container">
-                <div class="titlebox titlebox-about">
-                    <h2 class="about__title">
-                        Присоединяйтесь к нам
-                        в Instagram
-                    </h2>
-                </div>
-                <div class="about__inner row gy-4">
-                    <div class="col-6 col-md-6 col-lg-3">
-                        <a class="d-inline-block w-100" href="#">
-                            <img class="w-100" src="./images/about-bg.jpg" alt="Instagram post">
-                        </a>
-                    </div>
-
-                    <div class="col-6 col-md-6 col-lg-3">
-                        <a class="d-inline-block w-100" href="#">
-                            <img class="w-100" src="./images/about-bg2.jpg" alt="Instagram post">
-                        </a>
-                    </div>
-
-                    <div class="col-6 col-md-6 col-lg-3">
-                        <a class="d-inline-block w-100" href="#">
-                            <img class="w-100" src="./images/about-bg3.jpg" alt="Instagram post">
-                        </a>
-                    </div>
-
-                    <div class="col-6 col-md-6 col-lg-3">
-                        <a class="d-inline-block w-100" href="#">
-                            <img class="w-100" src="./images/about-bg4.jpg" alt="Instagram post">
-                        </a>
-                    </div>
-
-                    <div class="col-6 col-md-6 col-lg-3">
-                        <a class="d-inline-block w-100" href="#">
-                            <img class="w-100" src="./images/about-bg5.jpg" alt="Instagram post">
-                        </a>
-                    </div>
-
-                    <div class="col-6 col-md-6 col-lg-3">
-                        <a class="d-inline-block w-100" href="#">
-                            <img class="w-100" src="./images/about-bg6.jpg" alt="Instagram post">
-                        </a>
-                    </div>
-
-                    <div class="col-6 col-md-6 col-lg-3">
-                        <a class="d-inline-block w-100" href="#">
-                            <img class="w-100" src="./images/about-bg7.jpg" alt="Instagram post">
-                        </a>
-                    </div>
-
-                    <div class="col-6 col-md-6 col-lg-3">
-                        <a class="d-inline-block w-100" href="#">
-                            <img class="w-100" src="./images/about-bg8.jpg" alt="Instagram post">
-                        </a>
-                    </div>
-
-                    <div class="col-12 d-flex align-items-center justify-content-center">
-                        <a class="mainbtn mainbtn-about" href="#">
-                            Присоедениться
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </section>
     </main>
-    <!-- ============================================================================================ -->
+
     <footer class="site-footer footer">
         <div class="container">
             <div class="footer__inner finner">
@@ -344,9 +203,20 @@
             </div>
         </div>
     </footer>
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
     </script>
 </body>
-
 </html>

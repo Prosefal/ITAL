@@ -8,6 +8,11 @@
     z-index: 10;
 }
 
+.site-header-global {
+    padding: 26px 0 85px;
+    position: static;
+}
+
 .site-header__inner {
     display: flex;
     align-items: center;
@@ -44,6 +49,10 @@
     font-size: 18px;
     line-height: 25px;
     color: #FFF !important;
+}
+
+.black {
+    color: #424242 !important;
 }
 
 .navbar__link-acktive {

@@ -381,6 +381,11 @@ img {
   z-index: 10;
 }
 
+.site-header-global {
+  padding: 26px 0 85px;
+  position: static;
+}
+
 .site-header__inner {
   display: flex;
   align-items: center;
@@ -419,6 +424,10 @@ img {
   font-size: 18px;
   line-height: 25px;
   color: #FFF !important;
+}
+
+.black {
+  color: #424242 !important;
 }
 
 .navbar__link-acktive {
@@ -813,4 +822,23 @@ img {
   .fb__link {
     margin-bottom: 20px;
   }
+}
+.prizes {
+  padding: 0 0 140px;
+}
+
+.prizes__title {
+  margin: 0 0 60px;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 63px;
+  color: #424242;
+}
+
+.prizes__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=style.css.map */

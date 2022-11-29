@@ -1,0 +1,17 @@
+.prizes {
+    padding: 0 0 140px;
+}
+
+.prizes__title {
+    margin: 0 0 60px;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 63px;
+    color: #424242;
+}
+
+.prizes__list {
+    @include unlist;
+    display: flex;
+    flex-direction: column;
+}
